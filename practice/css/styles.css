@@ -2,3 +2,8 @@ nav {
     display: flex;
     flex-direction: row;
 }
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
