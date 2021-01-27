@@ -1,9 +1,17 @@
 nav {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 
 nav a {
     text-decoration: none;
     color: black;
+    font-size: 12px;
+    transition: 0.75s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    font-size: 14px;
 }
