@@ -32,11 +32,6 @@ body {
     letter-spacing: 3px;
 }
 
-#socials {
-    display: flex;
-    justify-content: space-between;
-}
-
 main {
     display: flex;
     flex-direction: row;
@@ -59,4 +54,15 @@ main p {
     background-color: white;
     text-align: center;
     padding: 20px 0;
+}
+
+footer {
+    background-color: white;
+    width: 100%;
+    margin: 0;
+}
+
+#socials {
+    display: flex;
+    justify-content: space-around;
 }
