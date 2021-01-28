@@ -1,3 +1,10 @@
+body {
+    background-color: white;
+    background-image: url("../images/background.jfif");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
 #main {
     display: flex;
     flex-direction: row;
@@ -8,6 +15,7 @@
     margin: 30px 70px 30px 70px;
     padding: 10px;
     height: 40px;
+    background-color: white;
 }
 
 #main a {
@@ -22,6 +30,11 @@
     color: brown;
     font-size: 24px;
     letter-spacing: 3px;
+}
+
+#socials {
+    display: flex;
+    justify-content: space-between;
 }
 
 main {
@@ -39,6 +52,11 @@ main img {
 }
 
 main p {
+    border: 5px solid black;
+    border-radius: 10px;
     width: 30%;
     height: auto;
+    background-color: white;
+    text-align: center;
+    padding: 20px 0;
 }
