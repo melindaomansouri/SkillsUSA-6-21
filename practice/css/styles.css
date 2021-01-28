@@ -1,4 +1,4 @@
-nav {
+#main {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -10,14 +10,14 @@ nav {
     height: 40px;
 }
 
-nav a {
+#main a {
     text-decoration: none;
     color: black;
     font-size: 18px;
     transition: 0.75s;
 }
 
-nav a:hover {
+#main a:hover {
     text-decoration: underline;
     color: brown;
     font-size: 24px;
