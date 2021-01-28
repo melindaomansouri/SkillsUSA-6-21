@@ -1,7 +1,7 @@
 body {
     background-color: white;
     background-image: url("../images/background.jfif");
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: 100% auto;
 }
 
